@@ -2,3 +2,17 @@
 {
     text-align: center;
 }
+h1{
+    color: blue;
+}
+.red{
+    color:red;
+}
+.form-contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-align: justify;
+}
+#firstname{
+    color:red;
+}
