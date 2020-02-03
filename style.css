@@ -16,3 +16,10 @@ h1{
 #firstname{
     color:red;
 }
+#style
+{
+    font-style: italic  ;
+}
+.form-elements{
+    font-family: 'Martel Sans', sans-serif;
+}
