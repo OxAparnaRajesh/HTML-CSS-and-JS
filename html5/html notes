@@ -1,0 +1,169 @@
+
+
+
+					Html Notes
+					**********
+
+
+1. HTML Structure and save it(.html).
+2. Comments in HTML
+3. Heading and paragraph in HTML
+4. Text formatting in HTML(b,u,i,del,sup,sub,strike)
+5. how  to add images in HTML( img tag )
+6. how to use an Anchor tag(a tag)
+7.  how to use List in HTML (ul, ol )
+8. Tables in HTML
+9. How to make Form in HTML (TextBox, Password, Radio Button, CheckBox, TextArea, Dropdown Box)
+
+source code:
+*************
+<!--
+<html>
+<head>
+    <title>HTML CSS Course</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+    *{font-family: 'Roboto', sans-serif;}
+    
+    </style>
+
+</head>
+
+<body>
+    <h1 style ="color: #0063B2FF ; background-color: #9CC3D5FF; text-align:center; padding : 10 0 ;text-transform : capitalize" >Welcome to html and css course</h1>
+    <h2>Welcome to html and css course</h2>
+    <h3>Welcome to html and css course</h3>
+    <h4>Welcome to html and css course</h4>
+    <h5>Welcome to html and css course</h5>
+    <h6>Welcome to html and css course</h6>
+
+    <p>
+        This is good course for html and css.
+
+    </p>
+
+    <!-- HTML formatting elements
+
+    <b>Bold text</b>
+    <strong> import text</strong>
+    <i>italic text</i>
+    <em> emphasized text</em>
+    <mark> marked text</mark>
+    <small> small text</small>
+    <del> deleted text</del>
+    <sub> subscript text</sub>
+    <sup>superscript text</sup> -->
+
+
+    <p> My name is <b><u>Aparna Haitwik Rajesh</u></b>. I am <i><mark>full stack developer</mark></i>.</p>
+    <p> H<sub>2 </sub>O</p>
+    <p> X<sup>2</sup>+Y<sup>2</sup></p>
+
+    <!--HTLM Links-->
+    <button>
+    <a href="https://blockholic.com/" target ="_blank" style = "text-decoration: none;" title="click and see blockholic page">Aparna Rajesh</a>
+        </button>
+
+
+        <!--HTML Images-->
+
+        <img src="circle-leaf-leaves-nature-png-1.png" width ="400" height="100" title ="hi there" alt="aparna">
+    
+        <!--HTML Tables-->
+<br><br><br>
+    <table border ="1" cellspacing ="0" cellpadding ="10" style="text-align: center;">
+        <tr>
+            <th>YouTube Name</th>
+            <th> Topic </th>
+            <th> Job </th>
+            <th> Subscribtions</th>
+        </tr>
+
+        <tr>
+            <td> Aparna</td>
+            <td>Blockchain</td>
+            <td>Programmer</td>
+            <td>600k</td>
+            
+        </tr>
+        <tr>
+            <td> Aparna</td>
+            <td>Blockchain</td>
+            <td>Programmer</td>
+            <td>600k</td>
+            
+        </tr>
+        <tr>
+            <td> Aparna</td>
+            <td>Blockchain</td>
+            <td>Programmer</td>
+            <td>600k</td>
+            
+        </tr>
+        <tr>
+            <td> Aparna</td>
+            <td>Blockchain</td>
+            <td>Programmer</td>
+            <td>600k</td>
+            
+        </tr>
+
+    </table>
+<br><br><br>
+
+    <!--HTML list-->
+    <p>list of shopping</p>
+    <ul type ="circle">
+        <li>laptop</li>
+        <li>bag</li>
+        <li>pen</li>
+        <li>pencil</li>
+
+    </ul>
+
+    <ol type="1" start ="4">
+        <li>Arjun</li>
+        <li>Bru</li>
+        <li>cat</li>
+        <li>dog</li>
+    </ol>
+
+    <br><br><br><br>
+
+    <!--HTML Form -->
+   <h3>Contact Form</h3>
+    <form>
+        <label> Username:</label><br>
+        <input type ="text" name ="username"><br><br>
+
+        <label> Password:</label><br>
+        <input type ="password" name ="password"><br><br>
+
+        <label> Email ID:</label><br>
+        <input type ="text" name ="email"><br><br>
+        <label> Mobile No:</label><br>
+        <input type ="text" name ="mobile"><br><br>
+<!---->
+        <select>
+            <option>
+                Select ur Plan
+            </option>
+            <option value ="personal"></option>
+            <option value ="business"></option>
+            <option value ="premium"></option>
+        </select><br><br>
+        <textarea cols="30" rows ="5"></textarea><br><br>
+
+        <p> Select your Gender</p>
+        <input type="radio" name ="gender"> Male
+        <input type ="radio" name="gender"> Female <br><br>
+
+        <p> Please read all the instruction </p>
+        <input type ="checkbox" name ="">Yes, I read it all. <br><br>
+
+        <input type ="submit" name ="submit" value="Submit"> 
+    </form>
+    <br><br><br>
+    </body>
+</html>
+

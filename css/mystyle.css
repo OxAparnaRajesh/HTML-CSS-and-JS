@@ -1,0 +1,45 @@
+.cen
+{
+    color: green;
+    text-align: center;
+    
+}
+p{
+    color:green;
+    text-align: center;
+    /*margin :auto;*/
+}
+body {
+    background-color: lightblue;
+    margin:auto;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  .red{
+      color:red;
+      margin-left:250px;
+      
+  }
+  #firstname,#lastname,#email,#jobtitle,#orgname,#other,#code,#phone,#message,#captcha,#ch1,#ch2,#conuntry,#inquery,#industry
+  {
+      margin-left:250px;
+      border-radius: 25px;
+  }
+  #contactushtmlcss {
+    /*border: 10px solid red;*/
+    background-color:linen;
+    
+    padding-bottom:  50px;
+  }
+  #captcha{
+      color:red;
+  }
+  #phone1{
+      border-radius:25px;
+  }
+  #sub,#reset{
+      border-radius:25px;
+  }

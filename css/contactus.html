@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Us-Wipro
+            
+        </title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <div>
+        <p>Thank you for your interest in Wipro’s services. 
+            Please provide the following information about your business needs to help us serve you better. 
+            This information will enable us to route your request to the appropriate person. 
+            You should receive a response within 48 hours.</p>
+        </div>
+        <br><br>
+        <div>
+        <p> Fields marked by asterisk(*) are required fields.</p>
+        </div>
+        <form style ="border :10px solid red">
+            <div class="contactus" id="contactushtmlcss"> <br>
+        
+            <div style="color:blue ;text-align:center;"> <h2>Contact Us </h2></div>
+                <span class="red"> *</span><label>First Name</label><br>
+                <input type="text" name="firstname" id="firstname"><br><br>
+                <span class="red"> *</span><label>Last Name</label> <br>
+                <input type="text" name="lastname" id="lastname"><br><br>
+                <span class="red"> *</span><label>E-mail Address </label> <br>
+                <input type="email" name="email" id="email"><br><br>
+                <span class="red"> * </span><label> Title</label><br>
+                <input type="text" name="jobtitle" id="jobtitle"><br><br>
+                <span class="red"> *</span><label>Organization Name</label> <br>
+                <input type="text" name="orgname" id="orgname"><br><br>
+                <span class="red"> * </span><label>Select Inquery Type</label> <br>
+                <select id="inquery"> 
+                    <option> Please Select </option>
+                    <option> Request for Services </option>
+                    <option> Alliances </option>
+                    <option> Career Seekers </option>
+                    <option> Investor Relations </option>
+                    <option> Analyst Relations </option>
+                </select> <br><br>
+                <span class="red"> * </span><label>If Others, please specify</label>><br>
+                <input type="text" name="other" id="other"><br><br>
+                <span class="red"> * </span><lable>Country</lable> <br>
+                <select id="conuntry"> 
+                    <option>  Select a Country </option>
+                    <option>  Malaysia</option>
+                    <option> Singapore </option>
+                    <option> India </option>
+                    <option> USA </option>
+                    <option> France </option>
+                </select> <br><br>
+                <span id="phone"> Phone Number(include country code)</span><br>
+                <input type="text" name="code" id="code" placeholder="Code">
+                <input type="text" name="phone" id="phone1" placeholder="Phone no"> <br><br>
+                <span class="red"> *</span> <label>Industry you belong to</label><br>
+                <select id="industry">
+                    <option>Select Please</option>
+                    <option>IT</option>
+                    <option>Finacial Service</option>
+                    <option>Public sector</option>
+                    <option>others</option>
+                </select><br><br>
+                <span class="red">* </span><label>Message</label><br>
+                <textarea name="message" id="message" cols=30 rows=10></textarea><br><br>
+                <span id="captcha"> *</span><label>Please Enter the captcha</label><br>
+                <input type="checkbox" name="captcha" id="captcha">I'm not a robot <br><br>
+                <input type="checkbox" name="ch1" id="ch1"> confirm, I have read and agree to Wipro’s Privacy Policy and consent to sharing my information.<br><br>
+
+                <input type ="checkbox" name="ch1" id="ch2">I would like to receive alerts and updates from Wipro.
+                <br><br>
+                <div class="cen">
+                    <input type="button" name="submit" id="sub" value="Submit">
+                    <input type="button"name=" reset" id="reset" value="Reset">
+                </div>
+                
+            </div>
+        </form>
+
+    </body>
+</html>
