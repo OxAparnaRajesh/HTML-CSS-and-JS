@@ -124,3 +124,64 @@ let res=ninjas.push('haitu');
 res=ninjas.pop();
 console.log(ninjas);
 
+//Null and undefined
+
+let num;
+console.log(num,num+3,`the number is ${num}`);
+
+let numb=null;
+console.log(numb,numb+3,`this number is ${numb}`);
+
+//booleans & comparisons
+console.log(true,false,"true","false");
+
+//methods can return booleans
+
+let em='aparna.sri85@gmail.com';
+let names=['abi','raj','haitu'];
+let r=email.includes('@');
+let r1=names.includes('haitu');
+console.log(r1);
+
+
+//comparison operators
+
+let n=25;
+console.log(n==25);
+console.log(n==30);
+console.log(n!=25);
+console.log(n>25);
+console.log(n<30);
+console.log(n>=25);
+console.log(n<=30);
+
+
+//loose comparison (different type can still be equal)
+let a=25;
+console.log(a==25);
+console.log(a=='25');
+
+//strict comparison(different types cannot be equal)
+let b=25;
+console.log(b===25);
+console.log(b==='25');
+console.log(b!==25);
+console.log(b!=='25');
+
+
+//type conversion
+
+let score='100';
+//score=Number(score);
+console.log(score+1);
+
+
+console.log(typeof score);
+
+
+//let conclude=Number('hello');
+//let conclude= String(50);
+
+let conclude=Boolean(0);
+//let conclude=Boolean('0');
+console.log(conclude);
